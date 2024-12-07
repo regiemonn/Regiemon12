@@ -1,0 +1,91 @@
+.Login {
+  background: linear-gradient(135deg, #4a90e2, #e0f7fa); /* Soft blue gradient */
+  min-height: 100vh; /* Full height for background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  padding: 2rem;
+  border: none; /* No border for a cleaner look */
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Softer shadow */
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff; /* White background for contrast */
+}
+
+.form-container:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.form-group {
+  margin-bottom: 1.5rem; /* More space between groups */
+}
+
+.form-group label {
+  font-size: 16px; /* Slightly larger font */
+  color: #333; /* Darker text for better readability */
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  padding: 0.8rem; /* Increased padding */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* More rounded edges */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.form-group input:focus {
+  border-color: #4a90e2; /* Highlight border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Glow effect */
+}
+
+.errors {
+  color: #e74c3c; /* Bright red for errors */
+  font-size: 0.85rem;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+.submit-container {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.submit-container button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px; /* More rounded edges */
+  background-color: #4a90e2; /* Button color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Adding transform for effect */
+  width: 100%; /* Full width button */
+}
+
+.submit-container button:hover {
+  background-color: #357abd; /* Darken on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.register-container {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555; /* Slightly lighter text */
+}
+
+.show-password {
+  margin-top: -0.5rem;
+  font-size: 0.85rem;
+  color: #4a90e2; /* Color for show password */
+  cursor: pointer;
+  user-select: none;
+}

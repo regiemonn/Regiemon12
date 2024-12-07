@@ -1,0 +1,130 @@
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a3c1e0, #e0f7fa); /* Soft blue gradient */
+  font-family: 'Arial', sans-serif;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 480px;
+  background-color: #ffffff;
+  border-radius: 25px; /* Softer, more rounded corners */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* Softer shadow */
+  padding: 2.5rem 2rem; /* Adjusted padding */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem; /* Moderate heading size */
+  color: #4a90e2;
+  margin-bottom: 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+  align-items: center;
+  width: 100%; /* Full width for better alignment */
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #4a90e2;
+  margin-bottom: 0.4rem;
+  align-self: flex-start;
+}
+
+.form-group input {
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #4a90e2;
+  border-radius: 15px;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px #4a90e2(194, 24, 91, 0.4);
+}
+
+.errors {
+  color: #4a90e2;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  text-align: left;
+}
+
+.show-password {
+  font-size: 0.9rem;
+  color: #4a90e2;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: -0.3rem;
+  transition: color 0.3s ease;
+}
+
+.show-password:hover {
+  color: #4a90e2;
+}
+
+.submit-container {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #4a90e2;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background-color: #4a90e2;
+  cursor: not-allowed;
+}
+
+.register-container {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.register-container a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.register-container a:hover {
+  color: #4a90e2;
+  text-decoration: underline;
+}
