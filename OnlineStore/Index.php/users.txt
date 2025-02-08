@@ -1,0 +1,2 @@
+admin:$2y$10$y5prN42LIyhXfXAjW.odDOcj1c3l6GEz5RIS0bqd9lfTr4DjmKYD.
+regie:$2y$10$zHySfx3ApuMzLE0PJV8VnuHiYAnhNezz7hdbU6NSZeG5Ge7S2npFa
